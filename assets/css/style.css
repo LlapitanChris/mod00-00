@@ -6,21 +6,15 @@
 
 body {
 
-/*	background-color: red;*/
-   
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;   
 }
 
 #main-section{
-	background-image: url("pinkwater.jpg");
-	background-size: cover;
-
-		/*background-image: url("https://image.freepik.com/free-vector/abstract-watercolor-stroke-background_1035-12387.jpg");*/
+	
 }
 
-.bckg-image{
-	width: 75%;
-
-}
 
 /*section#main-section > a{
 		color: white;
@@ -28,20 +22,6 @@ body {
 		display: block;
 }
 */
-
-a[href="https://github.com/LlapitanChris"]	{
-	position: absolute;
-	top:0;
-	right: 0;
-	text-decoration: none;
-}
-
-a[href="mailto:llapitan.chris@gmail.com"]	{
-	position: absolute;
-	top:0;
-	right: 100;
-	text-decoration: none;
-}
 
 section#main-section{
 	color: black;
@@ -64,9 +44,9 @@ section#main-section{
 .my-picture {
 	height: 150px;
 	padding: 3px;
-	margin: 15px;
+	margin-top: 20%;
 	border-radius: 50%;
-	border-style: solid;
+	border-style: ;
 	border-color: white;
 	border-width: 5px;
 }
@@ -100,8 +80,9 @@ h1 {
 
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: violet;
     overflow: hidden;
+
+
 }
 
  /*Style the links inside the navigation bar  */
@@ -111,22 +92,32 @@ h1 {
     float: left;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 16px 16px;
     text-decoration: none;
     font-size: 17px;
+    width: 70px;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background-color: violet;
-    color: black;
+    background-color: white;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-    background-color: violet;
-    color: white;
+   color: black;
 }
+
+a[href="https://github.com/LlapitanChris"]	{
+	padding-right: 10px;
+}
+
+a[href="mailto:llapitan.chris@gmail.com"]	{
+	text-decoration: none;
+}
+
+
+
 
 /*#portfolio-section {
 	background-color: orange;
