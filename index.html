@@ -4,6 +4,11 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+	<!-- Load favicon -->
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
 
 
@@ -33,19 +38,29 @@
 		</section>
 		<!-- Main section -->
 		<section id="main-section"> 
-			<div class="about">
-			<img class="my-picture" src="assets/css/img/me.jpg"	alt="delivery">
-			<h1> Christine Llapitan</h1>
-			<h2 id="dev-description">Future Project Manager| Full-Stack Web Developer| Student @Tuitt Philippines</h2>
-			<br>
-			<h3>"The only failure is not trying - Forbes"</h3>
-			<p>
-			Graduate of BS. Information Technology, Major in System Analysis and Design. Currently a  student of Tuitt Coding Bootcamp. An aspiring full-stack web developer<br> 
-			I want to develop a mobile friendly website that will mesmerize my audiencec and that everyone can visit and use.<br>		
-			Hoping to put up a small cafe, with my future partner, where we can offer food, drinks and services with our customer.
-			</p>
+
+			<div id="about-box">
+				<div class="about-box-1 box-1">
+					<img class="my-picture" src="assets/css/img/me.jpg"	alt="delivery">
+					<div class="box-1-1">
+					<h1> Christine Llapitan</h1>
+					<h2 id="dev-description">Future Project Manager| Full-Stack Web Developer| Student @Tuitt Philippines</h2>
+					<br>
+					<h3>"The only failure is not trying - Forbes"</h3>
+					<p>
+					Graduate of BS. Information Technology, Major in System Analysis and Design. Currently a  student of Tuitt Coding Bootcamp. An aspiring full-stack web developer<br> 
+					I want to develop a mobile friendly website that will mesmerize my audiencec and that everyone can visit and use.<br>		
+					Hoping to put up a small cafe, with my future partner, where we can offer food, drinks and services with our customer.
+					</p>
+					</div>	
+				</div>
 			</div>
+			
+			<div class="about-social">
+			</div>
+
 			</section>
+
 			<hr>
 		 <!--Portfoilo section  -->
 			<section id="portfolio-section">
@@ -89,41 +104,90 @@
 			<hr>
 			<!-- Skills section -->
 			 <section id="skills-section">
-			<h2>Skills Section</h2>	
-			<div id="skills-section-sect-1">
-					<div id="skills-html">
-						<div class="thumbnail-html">
-						<i class="fab fa-html5"></i>
-						</div>
-						<div class="html-text">
-								<p>HTML</p>
-						</div>
-					</div>
-			
-					<div id="skills-css">
-						<div class="thumbnail-css">
-						<i class="fab fa-css3"></i>
-						</div>
-						<div class="css-text">
-								<p>CSS</p>
-						</div>
-					</div>
+				<h2>Skills Section</h2>	
 				
-					<div class="skills-java">
-						<div class="thumbnail-java">
-						<i class="fab fa-js"></i>
-						</div>
-						<div class="java-text">
-								<p>JavaScript</p>
+				<div id="skills-sect">
+				 
+					<div class="skills-sect-1 frontend">
+						<h3>Front-End Development</h3>
+				
+						<div class="skills-sect-2">
+								<p>Collection of front-end development badges.</p>
+							<!-- <i class="fab fa-html5"></i> -->
 						</div>
 					</div>
-				</div>
+						
+				
+					<div class="skills-sect-1 backend">
+						<h3>Back-End Development</h3>
+						
+						<div class="skills-sect-2">
+							<p>Collection of back-end development badges.</p>
+							<!-- <i class="fab fa-css3"></i> -->
+						</div>
+					</div>
+				</div>		
 			</section>
 			<hr>
 			<!-- About/Contact sention -->
 			<section id="about-section">
 			<h2>About Section</h2>	
+
+			<div id="about-sect">
+				<div class="about-sect-1">
+					<h3>About me</h3>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+				</div>
+
+				<div class="about-sect-2">
+					<h3>Contact Me</h3>
+
+					<form action="" method="">
+						<label for="username">Name</label>
+						<input type="text" name="username" id="username" placeholder="Enter your name">	<br>
+						
+						<label for="useremail">Email Address/label>
+						<input type="email" name="username" id="useremail" placeholder="Enter your email address"><br>
+						
+						<label for="message">Name</label>
+						<textarea id="" placeholder="">
+							
+						</textarea>
+						<input type="submit" name="Submit" value="Send Message">
+
+
+
+
+
+					</form>
+				</div>
+
+			</div>
+
+
 			</section>
+
+			<footer>
+				<p>Copyright copy&; by Christine Bernadette Llapitan</p>
+			</footer>
 		</main>
 	 <!-- Imports custom scripts -->
 		<script type="text/javascript" src="assets/js/script.js"></script>
