@@ -80,9 +80,26 @@ body {
 }*/
 #main-section{
 	background-color:transparent;
-	height: 100vh;
 
 }
+
+#capstones > ul > li > blockquote > p {
+	color: white;
+	font-size: 15px;
+}
+
+#capstones > ul > li > a {
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+
+}
+
+#capstones > ul > li > a:hover {
+	color: red;
+	font-size: 25px;
+}
+
 
 bout-box{
 	display: block;
@@ -108,17 +125,16 @@ bout-box{
 }
 
 .box-1 {
-	background-color: red;
 	text-align: center;
 		margin: 0 auto;
 }
-
+/*
 section#portfolio-section > h2,
 section#skills-section > h2,
 section#about-section > h2 {
 	padding: 25px 0;
 	text-align: center;
-}
+}*/
 
 /*PORTFOLIO SECTION*/
 #portfolio-section{
